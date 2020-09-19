@@ -11,7 +11,7 @@ const SearchPatient = () => {
     
     const deletePatient = async (id) => {
         try {   
-            const deletePatient = await fetch(`http://localhost:5000/patients/${id}`, {
+            const deletePatient = await fetch(`http://5-63-159-23.ovz.vps.regruhosting.ru:5000/patients/${id}`, {
                 method: "DELETE"
             });
 
@@ -26,7 +26,7 @@ const SearchPatient = () => {
     const onSubmitForm = async e => {
         e.preventDefault()
         try { 
-            const response = await fetch(`http://localhost:5000/users/?name=${name}`);
+            const response = await fetch(`http://5-63-159-23.ovz.vps.regruhosting.ru:5000/users/?name=${name}`);
 
             const parseResponse = await response.json();
 

@@ -20,7 +20,7 @@ const InpuptPatient = () => {
         // e.preventDefault();
         try {
             const body = { fio, gender, birthday, locat, numOms };
-            const response = await fetch("http://localhost:5000/patients", {
+            const response = await fetch("http://5-63-159-23.ovz.vps.regruhosting.ru:5000/patients", {
                 method: "POST",
                 headers: {"Content-Type": "application/json"},
                 body: JSON.stringify(body)

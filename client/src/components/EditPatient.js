@@ -16,7 +16,7 @@ const EditPatient = ({ patients }) => {
 
         //proxy
 
-        const response = await fetch(`http://localhost:5000/patients/${patients.person_id}`,{
+        const response = await fetch(`http://5-63-159-23.ovz.vps.regruhosting.ru:5000/patients/${patients.person_id}`,{
         method: "PUT",
         headers: {"Content-Type": "application/json"},
         body: JSON.stringify(body)

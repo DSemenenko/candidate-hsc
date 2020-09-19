@@ -2,7 +2,8 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:5001",
+  "proxy": "http://localhost:5000",
+  "homepage": "http://5-63-159-23.ovz.vps.regruhosting.ru:3000/",
   "dependencies": {
     "@testing-library/dom": "^7.24.2",
     "@testing-library/jest-dom": "^4.2.4",
@@ -18,7 +19,8 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "react-spring": "^8.0.27",
-    "react-testing-library": "^8.0.1"
+    "react-testing-library": "^8.0.1",
+    "serve": "^11.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
