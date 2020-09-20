@@ -2,7 +2,8 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:5000",
+  "proxy": "http://localhost:5001",
+  "homepage": "http://5-63-159-23.ovz.vps.regruhosting.ru/",
   "dependencies": {
     "@testing-library/dom": "^7.24.2",
     "@testing-library/jest-dom": "^4.2.4",
